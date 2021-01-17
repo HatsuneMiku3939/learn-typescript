@@ -27,18 +27,18 @@ let color: Color = Color.Red;
 
 // "void" is used in the special case of a function returning nothing
 function bigHorribleAlert(): void {
-	alert("I'm a little annoying box!");
+  alert("I'm a little annoying box!");
 }
 
 // functions are first class citizens, support the lambda "fat arrow => syntax
 
 // he following are equivalent
 let f1 = function (i: number): number {
-	return i * i;
+  return i * i;
 }
 // return type inferred
 let f2 = function (i: number) {
-	return i * i;
+  return i * i;
 }
 // fat arrow syntax
 let f3 = (i: number): number => { return i * i; }
